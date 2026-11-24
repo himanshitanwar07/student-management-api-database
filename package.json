@@ -1,0 +1,15 @@
+{
+  "name": "student-management-api",
+  "version": "2.0.0",
+  "description": "Student Management System - REST API with SQLite database (DBMS project)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "db:reset": "node scripts/resetDb.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "express": "^4.19.2"
+  }
+}
